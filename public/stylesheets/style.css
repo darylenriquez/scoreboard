@@ -1,0 +1,103 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#scoreboard {
+  width: 400px;
+  background-color: #76a5af;
+  height: 200px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#scoreboard-contents {
+  margin: 15px;
+  position: relative;
+  height: 100%;
+}
+
+.score {
+  width: 41%;
+  display: inline-block;
+  height: 90%;
+}
+
+#divider {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  top: 20px;
+}
+
+.score > legend {
+  width: 100%;
+  background: #0c343d;
+  border-radius: 5px;
+}
+
+.score > legend span {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+  width: 95%;
+  text-align: center;
+}
+
+.score > div {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background: #0c343d;
+  border-radius: 5px;
+  height: 75%;
+}
+
+.score_text {
+  font-size: 70px;
+  margin-top: 15%;
+  display: inline-block;
+}
+
+.quad {
+  width: 35px;
+  background-color: black;
+  height: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #0c343d;
+}
+
+.input {
+  border-radius: 4px;
+  width: 50px;
+  line-height: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: medium;
+}
+
+.label {
+  display: inline-block;
+  width: 50px;
+  line-height: 40px;
+}
+
+.trigger {
+  background-color: white;
+  border-color: #ccc;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  font-size: medium;
+}

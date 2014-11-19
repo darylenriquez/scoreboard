@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SCOREBOARD</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>SCOREBOARD</h1>
+    <div id="scoreboard">
+      <div id="scoreboard-contents">
+        <div class="score" id="left">
+          <legend><span>HOME</span></legend>
+          <div>
+            <span class="score_text" id="text_left">0</span>
+          </div>
+        </div>
+        <div id="divider">
+          <div class="quad">
+          </div>
+          <div class="quad">
+          </div>
+        </div>
+        <div class="score" id="right">
+          <legend><span>VISITOR</span></legend>
+          <div>
+            <span class="score_text" id="text_right">0</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>Scorer</h2>
+        <div>
+          <span class="label">Left</span>
+          <input class="input" type="number" name="add_left" id="input_left">
+          <button type="button" class="trigger" id="left">Add Score</button>
+        </div>
+        <div>
+          <span class="label">Right</span>
+          <input class="input" type="number" name="add_right" id="input_right">
+          <button type="button" class="trigger" id="right">Add Score</button>
+        </div>
+        <button type="button" class="trigger" id="reset">Reset</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="/javascripts/common.js"></script>
+    <script type="text/javascript" src="/javascripts/scorer.js"></script>
+  </body>
+</html>
