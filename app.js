@@ -9,6 +9,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+//we put this here so if in the future if we need to have set up for it, well be doing it here
 var WebSocketServer = require("./lib/websocket.js");
 
 // view engine setup
